@@ -1,0 +1,63 @@
+.HomeHeroSection{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to right bottom, #fffbf3, #fffbf7, #fffbfb, #fffdfe, #fffeff, #fffeff, #fffeff, #fffeff, #fffdfe, #fffbfb, #fffbf7, #fffbf3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+    
+}
+
+
+
+.CompanyLogo{
+    height:105px;
+    width:75px;
+   
+}
+.HomeHeroSection_right{
+    position:relative;
+}
+.Person{
+    height:500px;
+    width:500px;
+      position:absolute;
+      top: 10%;
+      left: 10%;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .HomeHeroSection{
+        width:100%;
+       
+        background-image: linear-gradient(to right bottom, #fffbf3, #fffbf7, #fffbfb, #fffdfe, #fffeff, #fffeff, #fffeff, #fffeff, #fffdfe, #fffbfb, #fffbf7, #fffbf3);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:column;
+        gap:8vh;
+      
+       
+        
+    }
+
+    .HomeHeroSection_left{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+    }
+    .Person{
+        height:500px;
+        width:500px;
+          position:absolute;
+          top: -3%;
+          left: -3%;
+    }
+    
+}

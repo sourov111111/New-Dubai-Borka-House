@@ -1,0 +1,52 @@
+.FeatureSection{
+    width:100%;
+    height:50vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.FeatureSection_main{
+    width:60%;
+    height:40%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:4vw;
+}
+
+.FeatureSection_child{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    .FeatureSection{
+        position:absolute;
+        top:118vh;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .FeatureSection_main{
+      
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:10vw;
+    }
+
+
+
+
+}
